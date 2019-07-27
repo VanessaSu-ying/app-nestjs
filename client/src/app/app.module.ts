@@ -8,14 +8,16 @@ import { LoginFormComponent } from './components/login-form/login-form.component
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 
 import {HttpClientModule} from '@angular/common/http'
-import {FormsModule} from '@angular/forms'
+import {FormsModule} from '@angular/forms';
+import { HomeComponent } from './components/home/home.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     LoginFormComponent,
-    DashboardComponent
+    DashboardComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
